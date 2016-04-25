@@ -39,11 +39,6 @@ main {
     text-justify: inter-word;
 }
 
-
-// .card-reveal  ul  li  div  p {
-//     background-color: red;
-// }
-
 .text--italic {
     font-style: italic;
 }
@@ -54,4 +49,8 @@ main {
 
 .card {
     overflow: hidden;
+}
+
+.card .card-title {
+    font-size: 20px;
 }

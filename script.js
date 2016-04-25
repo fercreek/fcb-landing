@@ -5,8 +5,8 @@ $(document).ready(function() {
 	$('.slider').slider({full_width: true});
 	$('.carousel').carousel();
 
-	$('#vol1').hide(1000);
-	$('#vol2').hide(1000);
+	$('#vol1').hide();
+	$('#vol2').hide();
 
 	$('.volumeBtn').click(function () {
 		 var val = ($(this).attr("value"));
@@ -16,8 +16,7 @@ $(document).ready(function() {
 		 } else {
 		 	$('#vol1').hide(1000);
 		 	$('#vol2').show(1000);
-		 }
-
+		 }	
 	})
 
 });
