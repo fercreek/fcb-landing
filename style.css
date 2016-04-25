@@ -38,3 +38,20 @@ main {
     text-align: justify;
     text-justify: inter-word;
 }
+
+
+// .card-reveal  ul  li  div  p {
+//     background-color: red;
+// }
+
+.text--italic {
+    font-style: italic;
+}
+
+.text-bold {
+    font-style:oblique;
+}
+
+.card {
+    overflow: hidden;
+}
