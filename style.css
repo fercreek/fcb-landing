@@ -33,3 +33,8 @@ main {
     margin: auto;
     display: inline-block;
 }
+
+.text--justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
