@@ -54,3 +54,19 @@ main {
 .card .card-title {
     font-size: 20px;
 }
+
+.text--size {
+    font-size: 12px;
+}
+
+.text--size > i{
+    font-size: 12px;
+}
+
+.collapsible-header {
+    line-height: 2rem;
+}
+
+.collapsible-body p{
+    padding: 1rem;
+}
